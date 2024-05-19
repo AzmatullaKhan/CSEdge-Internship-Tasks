@@ -14,7 +14,7 @@ body{
     justify-content: center;
 }
 .main-background{
-    min-height:3846px;
+    min-height:3530px;
     width:1492px;
     background-color: #fffbfb;
     box-sizing: border-box;
@@ -80,7 +80,7 @@ hr{
     height:870px;
     width:1492px;
     box-sizing: border-box;
-    background-image: url('./bg.jpg');
+    background-image: url('./images/bg.jpg');
     background-size: cover;
     box-sizing: border-box;
     display: flex;
@@ -297,7 +297,7 @@ hr{
     min-width:50px;
     border-radius: 25px;
     margin: 0px 20px;
-    background-image: url('./github.png');
+    background-image: url('./images/github.png');
     background-size: cover;
     border:1px solid;
     background-repeat: no-repeat;
@@ -308,7 +308,7 @@ hr{
     width:50px;
     border-radius: 25px;
     margin: 0px 20px;
-    background-image: url('./instagram.jpg');
+    background-image: url('./images/instagram.jpg');
     background-size: cover;
     border:1px solid;
     background-repeat: no-repeat;
@@ -319,7 +319,7 @@ hr{
     width:50px;
     border-radius: 25px;
     margin: 0px 20px;
-    background-image: url('./linkedIn.png');
+    background-image: url('./images/linkedIn.png');
     background-size: cover;
     border:1px solid;
     background-repeat: no-repeat;
