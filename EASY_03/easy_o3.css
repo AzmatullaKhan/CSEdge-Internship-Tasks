@@ -1,0 +1,77 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color: #fff;
+}
+*::-webkit-scrollbar{
+    display: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin:0px;
+    padding: 0px;
+}
+
+.main-container{
+    height:842px;
+    width:1492px;
+}
+
+
+
+.main-about-section{
+    height:842px;
+    width:1492px;
+    padding: 0px 41px;
+}
+
+.about-section-one{
+    height:400px;
+    width:1410px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 22px;
+    margin-bottom: 4px;
+    position: relative;
+    top:-30px;
+}
+.about-section-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:700px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0px 0px 0px 30px;
+    position: relative;
+    left:80px;
+    line-height: 28px;
+    font-style: italic;
+}
+
+.about-section-two{
+    position: relative;
+    top: -110px;
+    height:550px;
+    width:1410px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:0px 12px;
+}   
+span{
+    font-weight: 100;
+}
+.about-section-two-projectname{
+    font-weight: bolder;
+    margin-bottom: -10px;
+}
+.about-section-two-projectdescription{
+    font-style: italic;
+}
+.head{
+    text-decoration: underline;
+    font-weight: bolder;
+}
